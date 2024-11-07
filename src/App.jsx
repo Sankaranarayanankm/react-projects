@@ -3,6 +3,7 @@ import "./App.css";
 import RandomColor from "./Components/Color-picker/RandomColor/RandomColor";
 import StarRating from "./Components/Star-rating/index.jsx";
 import ImageSlider from "./Components/ImageSlider/ImageSlider.jsx";
+import LoadMore from "./Components/LoadMore/LoadMore.jsx";
 
 const App = () => {
   return (
@@ -14,7 +15,10 @@ const App = () => {
       {/* <StarRating noOfStars={8} /> */}
 
       {/* image slider project  */}
-      <ImageSlider />
+      {/* <ImageSlider /> */}
+
+      {/* load more project  */}
+      <LoadMore />
     </div>
   );
 };
