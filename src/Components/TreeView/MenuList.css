@@ -1,0 +1,9 @@
+.menuLists {
+  list-style-type: none;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.menuLists li {
+  margin: 8px 0;
+}

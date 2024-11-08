@@ -4,7 +4,8 @@ import RandomColor from "./Components/Color-picker/RandomColor/RandomColor";
 import StarRating from "./Components/Star-rating/index.jsx";
 import ImageSlider from "./Components/ImageSlider/ImageSlider.jsx";
 import LoadMore from "./Components/LoadMore/LoadMore.jsx";
-
+import Treeview from "./Components/TreeView/Treeview.jsx";
+import menu from "./Components/TreeView/data.js";
 const App = () => {
   return (
     <div className="app">
@@ -20,7 +21,8 @@ const App = () => {
       {/* load more project  */}
       {/* <LoadMore /> */}
 
-      
+      {/* Tree view/ Menu UI / Recursive Navigation menu project  */}
+      <Treeview menus={menu} />
     </div>
   );
 };

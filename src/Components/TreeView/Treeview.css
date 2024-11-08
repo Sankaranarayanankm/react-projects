@@ -1,0 +1,15 @@
+.treeview {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  color: #333;
+}
+
+.treeview h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #007bff;
+}
