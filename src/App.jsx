@@ -18,7 +18,9 @@ const App = () => {
       {/* <ImageSlider /> */}
 
       {/* load more project  */}
-      <LoadMore />
+      {/* <LoadMore /> */}
+
+      
     </div>
   );
 };
