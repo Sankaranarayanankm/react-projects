@@ -8,6 +8,7 @@ import Treeview from "./Components/TreeView/Treeview.jsx";
 import menu from "./Components/TreeView/data.js";
 import QRCode from "./Components/QR-Code-Generator/QRCode.jsx";
 import QRCodeGenerator from "./Components/QR-Code-Generator/QRCode.jsx";
+import LightDarkMode from "./Components/Dark-Light theme/LightDarkMode.jsx";
 const App = () => {
   return (
     <div className="app">
@@ -27,7 +28,10 @@ const App = () => {
       {/* <Treeview menus={menu} /> */}
 
       {/* QR code Generator  */}
-      <QRCodeGenerator />
+      {/* <QRCodeGenerator /> */}
+
+      {/* dark and light theme mode  */}
+      <LightDarkMode />
     </div>
   );
 };

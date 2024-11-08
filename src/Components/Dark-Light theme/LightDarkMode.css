@@ -1,0 +1,25 @@
+.lightDarkMode {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+.light {
+  background-color: white;
+  color: black;
+}
+
+.dark > button {
+  border: 1px solid silver;
+  background-color: aliceblue;
+  color: black;
+}
