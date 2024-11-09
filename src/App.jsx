@@ -9,6 +9,9 @@ import menu from "./Components/TreeView/data.js";
 import QRCode from "./Components/QR-Code-Generator/QRCode.jsx";
 import QRCodeGenerator from "./Components/QR-Code-Generator/QRCode.jsx";
 import LightDarkMode from "./Components/Dark-Light theme/LightDarkMode.jsx";
+import ProgressBar from "./components/ProgressBar/ProgressBar.jsx";
+import Tabs from "./Components/CustomTabs/Tabs/Tabs.jsx";
+import TabsTest from "./Components/CustomTabs/TabsTest.jsx";
 const App = () => {
   return (
     <div className="app">
@@ -31,7 +34,13 @@ const App = () => {
       {/* <QRCodeGenerator /> */}
 
       {/* dark and light theme mode  */}
-      <LightDarkMode />
+      {/* <LightDarkMode /> */}
+
+      {/* progress bar project  */}
+      {/* <ProgressBar url="https://dummyjson.com/products?limit=100" /> */}
+
+      {/* create custom tabs  */}
+      <TabsTest />
     </div>
   );
 };
