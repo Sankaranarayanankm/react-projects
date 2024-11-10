@@ -12,6 +12,7 @@ import LightDarkMode from "./Components/Dark-Light theme/LightDarkMode.jsx";
 import ProgressBar from "./components/ProgressBar/ProgressBar.jsx";
 import Tabs from "./Components/CustomTabs/Tabs/Tabs.jsx";
 import TabsTest from "./Components/CustomTabs/TabsTest.jsx";
+import ModalButton from "./Components/Modal/ModalButton.jsx";
 const App = () => {
   return (
     <div className="app">
@@ -40,7 +41,10 @@ const App = () => {
       {/* <ProgressBar url="https://dummyjson.com/products?limit=100" /> */}
 
       {/* create custom tabs  */}
-      <TabsTest />
+      {/* <TabsTest /> */}
+
+      {/* create a modal  */}
+      <ModalButton />
     </div>
   );
 };
