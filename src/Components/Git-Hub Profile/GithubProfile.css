@@ -1,0 +1,29 @@
+.gitHubProfile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-direction: column; */
+}
+
+.gitHubProfile__data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 1px 1px rgba(0, 32, 3, 0.5);
+}
+
+.error {
+  color: red;
+}

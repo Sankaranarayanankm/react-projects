@@ -13,6 +13,7 @@ import ProgressBar from "./components/ProgressBar/ProgressBar.jsx";
 import Tabs from "./Components/CustomTabs/Tabs/Tabs.jsx";
 import TabsTest from "./Components/CustomTabs/TabsTest.jsx";
 import ModalButton from "./Components/Modal/ModalButton.jsx";
+import GithubProfile from "./Components/Git-Hub Profile/GithubProfile.jsx";
 const App = () => {
   return (
     <div className="app">
@@ -44,7 +45,10 @@ const App = () => {
       {/* <TabsTest /> */}
 
       {/* create a modal  */}
-      <ModalButton />
+      {/* <ModalButton /> */}
+
+      {/* git hub profile finder  */}
+      <GithubProfile />
     </div>
   );
 };
