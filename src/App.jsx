@@ -15,6 +15,7 @@ import TabsTest from "./Components/CustomTabs/TabsTest.jsx";
 import ModalButton from "./Components/Modal/ModalButton.jsx";
 import GithubProfile from "./Components/Git-Hub Profile/GithubProfile.jsx";
 import AutoComplete from "./Components/Search AutoComplete/AutoComplete.jsx";
+import TicTacToe from "./Components/TicTacToe/TicTacToe.jsx";
 const App = () => {
   return (
     <div className="app">
@@ -52,7 +53,10 @@ const App = () => {
       {/* <GithubProfile /> */}
 
       {/* search auto-complete project  */}
-      <AutoComplete />
+      {/* <AutoComplete /> */}
+
+      {/* tic tac toe project  */}
+      <TicTacToe />
     </div>
   );
 };
