@@ -16,6 +16,7 @@ import ModalButton from "./Components/Modal/ModalButton.jsx";
 import GithubProfile from "./Components/Git-Hub Profile/GithubProfile.jsx";
 import AutoComplete from "./Components/Search AutoComplete/AutoComplete.jsx";
 import TicTacToe from "./Components/TicTacToe/TicTacToe.jsx";
+import Parent from "./Components/useFetch/Parent.jsx";
 const App = () => {
   return (
     <div className="app">
@@ -56,7 +57,10 @@ const App = () => {
       {/* <AutoComplete /> */}
 
       {/* tic tac toe project  */}
-      <TicTacToe />
+      {/* <TicTacToe /> */}
+
+      {/* use fetch custom hook  */}
+      <Parent />
     </div>
   );
 };
