@@ -14,6 +14,7 @@ import Tabs from "./Components/CustomTabs/Tabs/Tabs.jsx";
 import TabsTest from "./Components/CustomTabs/TabsTest.jsx";
 import ModalButton from "./Components/Modal/ModalButton.jsx";
 import GithubProfile from "./Components/Git-Hub Profile/GithubProfile.jsx";
+import AutoComplete from "./Components/Search AutoComplete/AutoComplete.jsx";
 const App = () => {
   return (
     <div className="app">
@@ -48,7 +49,10 @@ const App = () => {
       {/* <ModalButton /> */}
 
       {/* git hub profile finder  */}
-      <GithubProfile />
+      {/* <GithubProfile /> */}
+
+      {/* search auto-complete project  */}
+      <AutoComplete />
     </div>
   );
 };

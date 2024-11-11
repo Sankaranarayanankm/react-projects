@@ -4,7 +4,7 @@ import "./GithubProfile.css";
 const GithubProfile = () => {
   const [user, setUser] = useState("");
   const [input, setInput] = useState("");
-  const [data, setData] = useState({});
+  const [data, setData] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
@@ -52,7 +52,7 @@ const GithubProfile = () => {
         <button type="submit">Search</button>
       </form>
       {loading && <p>Loading.....</p>}
-      {(data.name || data.login) && (
+      {data && (
         <div className="gitHubProfile__data">
           <img
             src={data?.avatar_url}
