@@ -17,6 +17,10 @@ import GithubProfile from "./Components/Git-Hub Profile/GithubProfile.jsx";
 import AutoComplete from "./Components/Search AutoComplete/AutoComplete.jsx";
 import TicTacToe from "./Components/TicTacToe/TicTacToe.jsx";
 import Parent from "./Components/useFetch/Parent.jsx";
+import OnclickParent from "./Components/useOnclickOutside/OnclickParent.jsx";
+import UseWindowResizeParent from "./Components/useWindowResize/useWindowResizeParent.jsx";
+import ScrollTopandBottom from "./Components/Scroll Top and Bottom/ScrollTopandBottom.jsx";
+
 const App = () => {
   return (
     <div className="app">
@@ -57,10 +61,19 @@ const App = () => {
       {/* <AutoComplete /> */}
 
       {/* tic tac toe project  */}
-      {/* <TicTacToe /> */}
+      {/* <TicTacT<oe /> */}
 
       {/* use fetch custom hook  */}
-      <Parent />
+      {/* <Parent /> */}
+
+      {/* use onclick outside custom hook used for modals  */}
+      {/* <OnclickParent /> */}
+
+      {/* use window resize hookk  */}
+      {/* <UseWindowResizeParent /> */}
+
+      {/* scroll to top and bottom  */}
+      <ScrollTopandBottom />
     </div>
   );
 };
